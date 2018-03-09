@@ -1,4 +1,4 @@
-package nitin.thecrazyprogrammer.views.Views;
+package nitin.thecrazyprogrammer.views;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

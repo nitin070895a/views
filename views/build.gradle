@@ -25,5 +25,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 
-   // compile 'com.github.nitin070895a:common:5edea75fdf'
+    compile "com.android.support:appcompat-v7:$rootProject.ext.support_version"
+    compile "com.android.support:design:$rootProject.ext.support_version"
+    compile "com.android.support:cardview-v7:$rootProject.ext.support_version"
+    compile "com.android.support:appcompat-v7:$rootProject.ext.support_version"
+    compile "com.android.support:support-v4:$rootProject.ext.support_version"
+    compile "com.android.support:recyclerview-v7:$rootProject.ext.support_version"
+
 }
